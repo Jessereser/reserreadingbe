@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ jessereser02/reserreadingbe }}
+  IMAGE_NAME: ${{ reserreadingbe }}
 
 
 jobs:
@@ -28,7 +28,7 @@ jobs:
         uses: docker/login-action@28218f9b04b4f3f62068d7b6ce6ca5b26e35336c
         with:
           registry: ${{ env.REGISTRY }}
-          username: ${{ Jessereser }}
+          username: ${{ github.actor }}
           password: ${{ secrets.Password }}
           
       - name: Extract Docker metadata
