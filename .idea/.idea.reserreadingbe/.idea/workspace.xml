@@ -5,18 +5,15 @@
     <projectFile profileName="reserreadingbe">reserreadingbe/reserreadingbe.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75cb18d0-981a-4a66-b2dc-ab3a96a78cc5" name="Changes" comment="">
+    <list default="true" id="75cb18d0-981a-4a66-b2dc-ab3a96a78cc5" name="Changes" comment="Tweak: Test for merging">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.reserreadingbe/.idea/shelf/Uncommitted_changes_before_Checkout_at_29-12-2021_14_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.reserreadingbe/.idea/shelf/Uncommitted_changes_before_Checkout_at_29-12-2021_14_19__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.reserreadingbe/.idea/shelf/Uncommitted_changes_before_Checkout_at_29-12-2021_14_20__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.reserreadingbe/.idea/shelf/Uncommitted_changes_before_Checkout_at_29-12-2021_14_20__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.reserreadingbe/.idea/shelf/Uncommitted_changes_before_Checkout_at_29-12-2021_14_22__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.reserreadingbe/.idea/shelf/Uncommitted_changes_before_Checkout_at_29-12-2021_14_22__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.reserreadingbe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.reserreadingbe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reserreadingbe.Contract/IStoryData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Reserreadingbe.Contract/IStoryData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reserreadingbe.Contract/Reserreadingbe.Contract.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Reserreadingbe.Contract/Reserreadingbe.Contract.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reserreadingbe.Common/reserreadingbe.Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe.Common/reserreadingbe.Common.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reserreadingbe.Data/StoryData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe.Data/StoryData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reserreadingbe.Data/reserreadingbe.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe.Data/reserreadingbe.Data.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reserreadingbe.Common/Story.cs" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe.Common/Story.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reserreadingbe.Logic/StoryLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe.Logic/StoryLogic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reserreadingbe.Logic/reserreadingbe.Logic.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe.Logic/reserreadingbe.Logic.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reserreadingbe/ReserreadingbeHub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe/ReserreadingbeHub.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reserreadingbe/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reserreadingbe/reserreadingbe.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe/reserreadingbe.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reserreadingbe.sln" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reserreadingbe/Controllers/StoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe/Controllers/StoryController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +35,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/individueel_project-s3/reserreadingbe/Reserreadingbe.Contract/IStoryData.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1y5Fpxn8gv4weKL5zKhW6Y0Hi9N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632129068096</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tweak: Test for merging">
+      <created>1640784401133</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640784401133</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +143,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -148,6 +167,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="fix dockerfile location" />
     <MESSAGE value="Initial creation Common, Data and Logic layer." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial creation Common, Data and Logic layer." />
+    <MESSAGE value="Tweak: Test for merging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tweak: Test for merging" />
   </component>
 </project>

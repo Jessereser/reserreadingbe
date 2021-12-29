@@ -24,5 +24,22 @@ namespace reserreadingbe.Logic
             return await _sDal.SelectAll();;
         }
         
+        public async Task<Story> NewStory(Story story)
+        {
+            if (story.Filepath != null)
+            {
+                await _sDal.InsertStory(story);
+                return story;
+            }
+            else
+            {
+                return new Story();
+            }
+        }
+        
+        public async Task<Story> GetStory(string storyId)
+        {
+            return await _sDal.SelectStory(storyId);
+        }
     }
 }

@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reserreadingbe.Logic", "res
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reserreadingbe.Contract", "Reserreadingbe.Contract\Reserreadingbe.Contract.csproj", "{3AE239F5-DB61-4411-9B67-F66E0FC8F9A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reserreadingbe.Tests", "reserreadingbe.Tests\reserreadingbe.Tests.csproj", "{5C3293A6-F10F-4315-A52B-5DFAB6CDE491}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{3AE239F5-DB61-4411-9B67-F66E0FC8F9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AE239F5-DB61-4411-9B67-F66E0FC8F9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AE239F5-DB61-4411-9B67-F66E0FC8F9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C3293A6-F10F-4315-A52B-5DFAB6CDE491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3293A6-F10F-4315-A52B-5DFAB6CDE491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3293A6-F10F-4315-A52B-5DFAB6CDE491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3293A6-F10F-4315-A52B-5DFAB6CDE491}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
