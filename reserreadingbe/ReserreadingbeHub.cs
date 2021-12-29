@@ -8,13 +8,13 @@ namespace reserreadingbe
 {
     public class ReserreadingbeHub
     {
-        private StoryLogic _bookLogic;
+        private StoryLogic _storyLogic;
 
         public ReserreadingbeHub(ReserreadingbeContext context)
         {
-            _context = new StoryLogic(new StoryData(context));
+           // _context = new StoryLogic(new StoryData(context));
         }
 
-        public async Task<> CreateBook;
+        //public async Task<> CreateBook;
     }
 }

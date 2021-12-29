@@ -6,22 +6,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75cb18d0-981a-4a66-b2dc-ab3a96a78cc5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/reserreadingbe.Common/Story.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reserreadingbe.Data/ReserreadingbeContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reserreadingbe.Data/StoryData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reserreadingbe/ReserreadingbeHub.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.reserreadingbe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.reserreadingbe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reserreadingbe.Common/Account.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reserreadingbe.Contract/IStoryData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Reserreadingbe.Contract/IStoryData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reserreadingbe.Contract/Reserreadingbe.Contract.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Reserreadingbe.Contract/Reserreadingbe.Contract.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reserreadingbe.Common/reserreadingbe.Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe.Common/reserreadingbe.Common.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reserreadingbe.Data/AccountData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reserreadingbe.Data/StoryData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe.Data/StoryData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reserreadingbe.Data/reserreadingbe.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe.Data/reserreadingbe.Data.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reserreadingbe.Logic/AccountLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe.Logic/StoryLogic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reserreadingbe.Logic/StoryLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe.Logic/StoryLogic.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reserreadingbe.Logic/reserreadingbe.Logic.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe.Logic/reserreadingbe.Logic.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reserreadingbe.sln" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reserreadingbe/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reserreadingbe/ReserreadingbeHub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe/ReserreadingbeHub.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reserreadingbe/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reserreadingbe/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reserreadingbe/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reserreadingbe/reserreadingbe.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/reserreadingbe/reserreadingbe.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +99,7 @@
       <workItem from="1638346210318" duration="5027000" />
       <workItem from="1639127127971" duration="1337000" />
       <workItem from="1640520740300" duration="1473000" />
+      <workItem from="1640697722039" duration="2535000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1631533767086</created>

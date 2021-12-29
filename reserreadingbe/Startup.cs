@@ -71,7 +71,7 @@ namespace reserreadingbe
                     name: "default",
                     pattern: "{controller=dashboard}/{action=index}/{id?}"
                 );
-                endpoints.MapHub<ReserreadingbeHub>("/hub");
+                //endpoints.MapHub<ReserreadingbeHub>("/hub");
             });
             
         }

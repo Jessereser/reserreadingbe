@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using reserreadingbe.Common;
 using Reserreadingbe.Contract;
 
 namespace reserreadingbe.Logic
@@ -15,6 +18,11 @@ namespace reserreadingbe.Logic
             _sDal = sData;
         }
         
+        
+        public async Task<List<Story>> GetAll ()
+        { 
+            return await _sDal.SelectAll();;
+        }
         
     }
 }

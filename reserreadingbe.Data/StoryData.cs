@@ -14,7 +14,7 @@ namespace reserreadingbe.Data
             _context = context;
         }
         
-        public async Task<Story> InsertStories(Story story)
+        public async Task<Story> InsertStory(Story story)
         {
             await _context.Stories.AddAsync(story);
             await _context.SaveChangesAsync();

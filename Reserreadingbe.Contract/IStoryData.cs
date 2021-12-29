@@ -7,7 +7,7 @@ namespace Reserreadingbe.Contract
 {
     public interface IStoryData
     {
-        Task<Story> InsertStories(Story story);
+        Task<Story> InsertStory(Story story);
         Task<List<Story>> SelectAll();
         Task<Story> SelectStory(string storyId);
     }
