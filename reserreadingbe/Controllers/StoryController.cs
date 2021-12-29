@@ -33,6 +33,7 @@ namespace reserreadingbe.Controllers
         [HttpPost]
         public async Task<ActionResult<Story>> AddStory(Story story)
         {
+            //
             //story = await _aLogic.
             return BadRequest();
         }
